@@ -1,4 +1,5 @@
 import React from 'react';
+import AccountMenu from './AccountMenu';
 import SearchVideo from './SearchVideo';
 
 const NavBar = () => (
@@ -14,6 +15,7 @@ const NavBar = () => (
 				<li>My list</li>
 			</ul>
 			<SearchVideo />
+			<AccountMenu />
 		</div>
 	</nav>
 );
