@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import VGTApp from './components/VGTApp';
 
-ReactDOM.render('hello world', document.getElementById('root'));
+ReactDOM.render(<VGTApp />, document.getElementById('root'));
