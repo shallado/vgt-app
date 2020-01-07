@@ -1,4 +1,5 @@
 import React from 'react';
+import SearchVideo from './SearchVideo';
 
 const NavBar = () => (
 	<nav>
@@ -12,6 +13,7 @@ const NavBar = () => (
 				<li>PC</li>
 				<li>My list</li>
 			</ul>
+			<SearchVideo />
 		</div>
 	</nav>
 );
