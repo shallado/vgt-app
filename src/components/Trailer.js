@@ -11,6 +11,7 @@ const Trailer = () => (
 				<p>xboxone - ps4 - nintendo - pc</p>
 			</div>
 			<p>+</p>
+			<button>open up a modal for more info about video game</button>
 		</div>
 	</div>
 );
