@@ -1,0 +1,39 @@
+.navbar {
+	background-color: $dark-black;
+	display: flex;
+	font-size: 1.7rem;
+
+	&__links-primary {
+		display: flex;
+		align-items: center;
+		margin: 0 auto 0 5rem;
+		
+		& ul {
+			display: flex;
+			list-style: none;
+
+			& li  {
+				margin-left: 2rem;
+
+				& a {
+					color: $primary-color-text;
+					text-decoration: none;
+
+					&:hover {
+						color: $light-grey;
+					}
+				}
+			}
+		}
+	}
+
+	&__links-secondary {
+		display: flex;
+		align-items: center;
+		margin: 0 5rem 0 auto;
+	}
+
+	&__logo {
+		width: 10rem;
+	}
+}
