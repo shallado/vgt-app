@@ -1,0 +1,61 @@
+.account-menu {
+	position: relative;
+
+	& ion-icon {
+		display: inline-block;
+		height: 100%;
+		width: 100%;
+	}	
+
+	&:hover .account-menu {
+		&__content-container {
+			display: block;
+		}
+	}
+
+	&__drop-down {
+		display: flex;
+		align-items: center;
+	}
+
+	&__profile-img {
+		width: 5rem;
+	}
+
+	&__icon {
+		height: 2.5rem;
+		width: 2.5rem;
+
+		&--alt {
+			@extend .account-menu__icon;
+			position: absolute;
+			top: -2.5rem;
+			left: 15rem;
+
+			&:hover {
+				&__content {
+					display: block;
+				}
+			}
+		}
+	}
+
+	&__content-container {
+		padding: 2rem 1rem;
+		background-color: $dark-black;
+		opacity: .95;
+		display: none;
+		position: absolute;
+		top: 7.8rem;
+		right: 1rem;
+		width: 20rem;
+	}
+
+	&__profile {
+		@include menuContent;
+	}
+
+	&__sign-out {
+		@include menuContent;
+	}
+}

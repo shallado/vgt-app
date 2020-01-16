@@ -1,0 +1,9 @@
+@mixin menuContent {
+	color: $primary-color-text;
+		display: inline-block;
+		text-decoration: none;
+
+		&:hover {
+			border-bottom: 1px solid $primary-color-text;
+		}
+}

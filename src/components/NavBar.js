@@ -29,7 +29,7 @@ const NavBar = () => (
     </div>
     <div className="navbar__links-secondary">
       <SearchVideo />
-      {/* <AccountMenu /> */}
+      <AccountMenu />
     </div>
   </nav>
 );
