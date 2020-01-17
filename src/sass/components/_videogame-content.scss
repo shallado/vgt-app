@@ -1,0 +1,26 @@
+.videogame-content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5rem;
+	
+	&__links {
+		display: flex;
+		justify-content: space-between;
+		flex-basis: 50rem;
+	}
+
+	&__link {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		@include videogameLinks;
+
+		& ion-icon {
+			margin-right: 1rem;
+		}
+	}
+
+	&__rating {
+		@include videogameLinks;
+	}
+}
