@@ -3,7 +3,7 @@ import FeaturedTrailer from './FeaturedTrailer';
 import TrailerCategory from './TrailerCategory';
 
 const TrailerCollection = () => (
-	<div>
+	<div className="trailer-collection">
 		<TrailerCategory />
 		<TrailerCategory />
 		<FeaturedTrailer />

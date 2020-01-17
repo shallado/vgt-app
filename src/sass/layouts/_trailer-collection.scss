@@ -1,0 +1,8 @@
+.trailer-collection {
+	background-color: $dark-black;
+	padding: 5rem;
+
+	& > *:not(:first-child) {
+		margin-top: 5rem;
+	}
+}
