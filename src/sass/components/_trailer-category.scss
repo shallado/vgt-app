@@ -3,5 +3,16 @@
 		font-size: 2rem;
 		display: flex;
 		justify-content: space-between;
+		padding: 5rem;
+	}
+
+	&__trailer-cards {
+		white-space: nowrap;
+		margin-top: 2rem;
+		padding-left: 2.5rem;
+
+		& > *:not(:first-child) {
+			margin-left: .2rem;
+		}
 	}
 }

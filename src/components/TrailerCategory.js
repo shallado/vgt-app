@@ -1,5 +1,5 @@
 import React from 'react';
-import Trailer from './Trailer';
+import TrailerCard from './TrailerCard';
 
 const TrailerCategory = () => (
 	<div className="trailer-category">
@@ -7,7 +7,14 @@ const TrailerCategory = () => (
 			<h2 className="trailer-category__title">Trailer Category</h2>
 			<p className="trailer-category__status-bar">- - - -</p>
 		</div>
-		<Trailer />
+		<div className="trailer-category__trailer-cards">
+			<TrailerCard />
+			<TrailerCard />
+			<TrailerCard />
+			<TrailerCard />
+			<TrailerCard />
+			<TrailerCard />
+		</div>
 	</div>
 );
 
