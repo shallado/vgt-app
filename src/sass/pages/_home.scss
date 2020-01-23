@@ -1,0 +1,49 @@
+.home {
+	background-image: linear-gradient(
+		to right bottom,
+		rgba($dark-black, .1),
+		rgba($dark-black, .1)
+	), url('/img/home.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+
+	&__container-one {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 5rem;
+	}
+
+	&__logo {
+		width: 12rem;
+	}
+
+	&__signin-link {
+		padding: 1rem 3rem;
+		font-size: 1.5rem;
+		@include homeButton;
+	}
+
+	&__container-two {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 10rem;
+	}
+
+	&__primary-heading {
+		font-size: 4rem;
+	}
+
+	&__secondary-heading {
+		font-size: 2rem;
+	}
+
+	&__signup-link {
+		font-size: 2rem;
+		margin-top: 5rem;
+		padding: 2rem 7rem;
+		@include homeButton;
+	}
+}
