@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import AccountMenu from './AccountMenu';
 import SearchVideo from './SearchVideo';
 
@@ -8,22 +9,22 @@ const NavBar = () => (
       <img src="img/logo.png" alt="company logo" className="navbar__logo"></img>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <NavLink to="/browse" exact={true}>Home</NavLink>
         </li>
         <li>
-          <a href="#">Nintendo</a>
+          <NavLink to="/browse/nintendo">Nintendo</NavLink>
         </li>
         <li>
-          <a href="#">Playstation</a>
+          <NavLink to="browse/playstation">PlayStation</NavLink>
         </li>
         <li>
-          <a href="#">Xbox</a>
+          <NavLink to="browse/xbox">Xbox</NavLink>
         </li>
         <li>
-          <a href="#">PC</a>
+          <NavLink to="browse/pc">PC</NavLink>
         </li>
         <li>
-          <a href="#">My list</a>
+          <NavLink to="/my-list">My List</NavLink>
         </li>
       </ul>
     </div>

@@ -5,3 +5,5 @@ const PCPage = () => (
 		PC Page
 	</div>
 );
+
+export default PCPage;

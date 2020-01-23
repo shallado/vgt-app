@@ -5,3 +5,5 @@ const XboxPage = () => (
 		XboxPage
 	</div>
 );
+
+export default XboxPage;
