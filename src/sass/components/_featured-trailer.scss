@@ -1,0 +1,20 @@
+.featured-trailer {
+	font-size: 1.7rem;
+	padding-left: 5rem;
+	display: flex;
+	align-items: center;
+
+	&__content {
+		padding-right: 5rem;
+	}
+
+	&__video {
+		flex-basis: 75%;
+		height: 40rem;
+		margin-right: 4rem;
+	}
+
+	&__title {
+		font-size: 8rem;
+	}
+}
