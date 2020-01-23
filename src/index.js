@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import VGTApp from './components/VGTApp';
+import AppRouter from './routes/AppRouter';
 import './sass/main.scss';
 
-ReactDOM.render(<VGTApp />, document.getElementById('root'));
+ReactDOM.render(<AppRouter />, document.getElementById('root'));
