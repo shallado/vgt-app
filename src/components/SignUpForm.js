@@ -93,6 +93,7 @@ const SignUpForm = () => {
 					<option value="Female">Female</option>
 				</select>
 			</div>
+			<button>Create</button>
 		</form>
 	);
 };
