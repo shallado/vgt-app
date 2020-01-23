@@ -16,7 +16,6 @@ const HomePage = () => (
       <h2 className="home__secondary-heading">
         Keep up to date with upcoming video games
       </h2>
-      <a href="#">Sign Up</a>
       <Link to="/signup" className="home__signup-link">Sign Up</Link>
     </div>
   </div>
