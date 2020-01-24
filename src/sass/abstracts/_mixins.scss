@@ -35,3 +35,14 @@
 		margin-top: 3rem;
 	}
 }
+
+@mixin primaryBackground {
+	background-image: linear-gradient(
+		to right bottom,
+		rgba($dark-black, .1),
+		rgba($dark-black, .1)
+	), url('/img/home.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}

@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import AccountPage from '../components/AccountPage';
 import BrowsePage from '../components/BrowsePage';
 import HomePage from '../components/HomePage';
-import LoginPage from '../components/LoginPage';
+import LogInPage from '../components/LogInPage';
 import MyListPage from '../components/MyListPage';
 import NintendoPage from '../components/NintendoPage';
 import PCPage from '../components/PCPage';
@@ -15,7 +15,7 @@ const AppRouter = () => (
 	<BrowserRouter>
 		<Switch>
 			<Route path="/" component={HomePage} exact={true} />
-			<Route path="/login" component={LoginPage} />
+			<Route path="/login" component={LogInPage} />
 			<Route path="/signup" component={SignUpPage} />
 			<Route path="/browse" component={BrowsePage} />
 			<Route path="/browse/nintendo" component={NintendoPage} />

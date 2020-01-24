@@ -2,6 +2,7 @@ import React from 'react';
 
 const LogInForm = () => (
 	<form className="login-form">
+		<h1>Sign In</h1>
 		<div className="input-field">
 			<div className="input-field__label-container">
 				<label htmlFor="email">Email</label>
