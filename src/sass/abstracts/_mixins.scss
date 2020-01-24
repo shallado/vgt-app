@@ -22,3 +22,16 @@
 	color: inherit;
 	text-decoration: none;
 }
+
+@mixin primaryForm {
+	background-color: rgba($light-black, .5);
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 3rem;
+	margin: 0 auto;
+	width: 60rem;
+
+	& > *:not(:first-child) {
+		margin-top: 3rem;
+	}
+}
