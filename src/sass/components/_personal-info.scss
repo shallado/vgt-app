@@ -1,0 +1,19 @@
+.personal-info {
+	margin: 0 auto;
+	width: 70%;
+
+	&__header {
+		margin-bottom: 2rem;
+	}
+
+	&__title {
+		display: inline;
+		margin-right: 15rem;
+	}
+
+	&__details {
+		& li {
+			list-style: none;
+		}
+	}
+}

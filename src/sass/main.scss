@@ -8,16 +8,19 @@
 @import './components/featured-trailer';
 @import './components/input-field';
 @import './components/login-form';
+@import './components/personal-info';
 @import './components/search-form';
 @import './components/signup-form';
 @import './components/trailer-card';
 @import './components/trailer-category';
+@import './components/update-info-btn';
 @import './components/videogame-content';
 
 @import './layouts/navigation';
 @import './layouts/header';
 @import './layouts/trailer-collection';
 
+@import './pages/account';
 @import './pages/home';
 @import './pages/login';
 @import './pages/signup';
