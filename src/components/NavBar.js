@@ -12,16 +12,16 @@ const NavBar = () => (
           <NavLink to="/browse" exact={true}>Home</NavLink>
         </li>
         <li>
-          <NavLink to="/browse/nintendo">Nintendo</NavLink>
+          <NavLink to="/nintendo">Nintendo</NavLink>
         </li>
         <li>
-          <NavLink to="browse/playstation">PlayStation</NavLink>
+          <NavLink to="/playstation">PlayStation</NavLink>
         </li>
         <li>
-          <NavLink to="browse/xbox">Xbox</NavLink>
+          <NavLink to="/xbox">Xbox</NavLink>
         </li>
         <li>
-          <NavLink to="browse/pc">PC</NavLink>
+          <NavLink to="/pc">PC</NavLink>
         </li>
         <li>
           <NavLink to="/my-list">My List</NavLink>

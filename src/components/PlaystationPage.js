@@ -1,9 +1,16 @@
 import React from 'react';
+import Header from "./Header";
+import NavBar from "./NavBar";
+import TrailerCollection from "./TrailerCollection";
+import Footer from "./Footer";
 
 const PlayStationPage = () => (
-	<div>
-		PlayStationPage
-	</div>
+  <div>
+    <NavBar />
+    <Header />
+    <TrailerCollection />
+    <Footer />
+  </div>
 );
 
 export default PlayStationPage;
